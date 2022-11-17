@@ -1,0 +1,14 @@
+{ 
+    "Parameters": {
+       "EC2InstanceType": "t2.micro",
+       "EC2ImageId": "ami-0518bb0e75d3619ca",
+       "NetworkStackName": "cfn-networking-prod-stack",
+       "LogGroupName": "cfn-webapp-prod-logs",
+       "LogRetentionDays": "1",
+       "Env": "Prod"
+    },
+
+    "Tags":{"Env": "Prod"}
+        
+
+  }
